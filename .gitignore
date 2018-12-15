@@ -6,17 +6,17 @@
 *.sln
 *.csproj
 Codebase/.vs
-Codebase/Ionic.Zlib/*
-Codebase/Ionic.Crc/*
-Codebase/NVorbis.NAudioSupport/*
+Codebase/Ionic.Zlib/
+Codebase/Ionic.Crc/
+Codebase/NVorbis.NAudioSupport/
 Codebase/obj/
-Codebase/Properties/*
-Codebase/Verse.Steam/*
-Codebase/Verse.Sound/*
-Codebase/Verse.Profile/*
-Codebase/Verse.Noise/*
-Codebase/Verse.Grammar/*
-Codebase/RuntimeAudioClipLoader/*
+Codebase/Properties/
+Codebase/Verse.Steam/
+Codebase/Verse.Sound/
+Codebase/Verse.Profile/
+Codebase/Verse.Noise/
+Codebase/Verse.Grammar/
+Codebase/RuntimeAudioClipLoader/
 
 SkyfallerUtility.cs
 
@@ -28,4 +28,18 @@ Codebase/Verse/*
 Codebase/Verse.AI/*
 Codebase/Verse.AI.Group/*
 
+#Allowed
+!Codebase/*/*Utility*.cs
+!Codebase/*/*Incident*.cs
+!Codebase/*/*Storyteller*.cs
+!Codebase/*/*Comp*.cs
+!Codebase/*/MapPawns.cs
+!Codebase/*/Map*.cs
+!Codebase/*/*Verb*.cs
 !Codebase/*/Thing.cs
+!Codebase/*/ThingDef*.cs
+!Codebase/*/*Hediff*.cs
+!Codebase/*/HediffDef*.cs
+!Codebase/*/Find.cs
+
+*Debug*.*
