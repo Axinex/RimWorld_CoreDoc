@@ -23,3 +23,5 @@ Codebase/RimWorld.Planet/*
 Codebase/Verse/*
 Codebase/Verse.AI/*
 Codebase/Verse.AI.Group/*
+
+!Codebase/*/Thing.cs
