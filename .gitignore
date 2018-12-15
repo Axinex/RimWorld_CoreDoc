@@ -1,3 +1,7 @@
+# this will basically have to be a whitelist .gitignore to maintain compliance
+# with Tynan's wishes. It will be a smidge difficult until I get a hang of it
+
+
 !*
 *.sln
 *.csproj
